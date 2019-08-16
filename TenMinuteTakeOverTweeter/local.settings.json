@@ -1,0 +1,11 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "UserId": "olig_75",
+    "ClientId": "f005beb591ce40a0b60b89c0dcc26f23",
+    "ClientSecret": "65b53a1d47a54c04a6c46ad220790194",
+    "PlaylistName": "chill"
+  }
+}
