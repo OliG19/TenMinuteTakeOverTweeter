@@ -19,6 +19,8 @@ namespace TenMinuteTakeOverTweeter
     public static class SpotifyFunction
     {
         private static readonly SpotifyClient SpotifyClient = new SpotifyClient();
+        private static readonly TwitterClient TwitterClient = new TwitterClient();
+
 
         [FunctionName("SpotifyFunction")]
         public static async Task Run([TimerTrigger("0 */1 * * * *")] TimerInfo myTimer, TraceWriter log)
@@ -28,6 +30,7 @@ namespace TenMinuteTakeOverTweeter
             var tracksToTweet = await SpotifyClient.GetSpotifyUserDetailsAsync();
 
             //TODO: Tweet tracks from spotify
+            await TwitterClient.GetToken();
         }
     }
 }
