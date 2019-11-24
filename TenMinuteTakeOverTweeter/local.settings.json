@@ -3,9 +3,13 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-    "UserId": "olig_75",
-    "ClientId": "f005beb591ce40a0b60b89c0dcc26f23",
-    "ClientSecret": "65b53a1d47a54c04a6c46ad220790194",
-    "PlaylistName": "chill"
+    "SpotifyUserId": "olig_75",
+    "SpotifyClientId": "f005beb591ce40a0b60b89c0dcc26f23",
+    "SpotifyClientSecret": "65b53a1d47a54c04a6c46ad220790194",
+    "PlaylistName": "marathon",
+    "TwitterConsumerKey": "smMOo80PQmIaRjEkZcLRPME8d",
+    "TwitterConsumerKeySecret": "q4TUj8Mv1ucW3hOnGWISo1HUmLbVpztC0p6DwAIv9oSkODWb1d",
+    "TwitterToken": "22989230-vjC4TRPJB4nHfMowQzSNXiDOPrPYyd2QW6eyKNs0I",
+    "TwitterTokenSecret": "nYeziKUN1Z3vPhJBKlVlYWzyoPoEUIK3bSiv7EC5peyF8"
   }
 }
